@@ -1,6 +1,19 @@
 # AccuKnox-Project
+##Topic: Custom Classes in Python
+Description: You are tasked with creating a Rectangle class with the following requirements:
+##Answer-2
 
-Question 1: By default, are Django signals executed synchronously or asynchronously?
+code-:
+
+<img width="683" alt="image" src="https://github.com/user-attachments/assets/8400aee9-1628-41fc-84ad-fdeb4e727b30">
+
+output:
+
+<img width="641" alt="image" src="https://github.com/user-attachments/assets/e51fbf6d-8951-4ced-82cf-e09345873b59">
+
+##Topic: Django Signals
+
+#Question 1: By default, are Django signals executed synchronously or asynchronously?
 
 Answer:
 By default, Django signals are executed synchronously. This means that when a signal is triggered, the receivers connected to it are executed in sequence, and the sender waits for all receivers to finish before continuing execution.
@@ -32,6 +45,9 @@ In this example, the instance.save() inside the signal handler happens within th
 Output of the given project -:
 
 <img width="342" alt="image" src="https://github.com/user-attachments/assets/19679090-479f-42e6-908a-fc28e1479389">
+
+
+
 
 
 
